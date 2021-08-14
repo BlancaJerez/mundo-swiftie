@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+#info {
+	background: #C06;
+	color: #FFF;
+	text-align: center;
+	padding: 20px;
+	font-size: 20px;
+}
+
+#info .contenedor {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.info-swiftie {
+	margin: 20px;
+}
+
+.info-swiftie img {
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+	border: 5px solid #FFF;
+}
+
+@media (min-width:480px) {
+	.info-swiftie {
+		width: 40%;
+	}
+}
+
+@media (min-width:1024px) {
+	.info-swiftie {
+		width: auto;
+	}
+}
